@@ -4,6 +4,15 @@ html, body {
     background-color: rgb(190, 150, 79);
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo img{
+    width: 150px;
+}
+
 tr:nth-child(even) {
     background-color: rgba(150, 212, 212, 0.4);
 }
@@ -21,4 +30,6 @@ td:nth-child(even) {
 h1 {
     align-content: center;
     margin-left: 40%;
+    font-weight: bold;
+    color: #249b14;
 }
